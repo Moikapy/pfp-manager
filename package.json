@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "local": "next dev",
-    "build": "npx nft-art-generator --save-config",
+    "start":"next start",
+    "build": "next build",
     "format": "prettier --write \"**/*.ts\" \"**/*.tsx\" \"**/*.js\" \"**/*.json\"",
-    "read": "node index.js"
+    "read": "node index.js",
+    "gen":"npx nft-art-generator --save-config"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
