@@ -1,0 +1,25 @@
+{
+  "name": "pfp-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "local": "next dev",
+    "build": "npx nft-art-generator --save-config",
+    "format": "prettier --write \"**/*.ts\" \"**/*.tsx\" \"**/*.js\" \"**/*.json\"",
+    "read": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ipfs-http-client": "^53.0.0",
+    "next": "latest",
+    "nft-art-generator": "^1.0.3",
+    "nft.storage": "^3.2.2",
+    "prettier": "^2.4.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
